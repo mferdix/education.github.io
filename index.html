@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Mari Lindungi Tubuh Kita</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    
+    <style>
+        
+        @font-face {
+  font-family: cuby;
+  src: url(../CherryBomb-Regular.otf);
+ }
+
+ @font-face {
+  font-family: plalytime;
+  src: url(../playtime.ttf);
+ }
+
+
+ @font-face {
+  font-family: playtimeObli;
+  src: url(../PlaytimeOblique.ttf);
+ }
+
+ @font-face {
+  font-family: todies;
+  src: url(../PlaytimeWithHotToddies3D.ttf);
+ }
+
+        
+        .mycontent {
+          width: 100vw;
+          max-width: 100%
+        }
+        .button {
+          top: 55%;
+          left: 50%;
+          width: 250px;
+            border-radius: 10px;
+            
+          font-size: 20px;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          padding: 0 .6em;
+        }
+
+        .topcontent {
+          height: 100vh;
+          max-width: 100%;
+          background: url("img/cover-pc.png");
+          background-size: cover;
+        }
+
+        /* irrelevant starts here CSS */
+
+        body {
+          max-width: 100%;
+          padding: 0;
+          margin: 0 auto;
+          color: #999;
+        }
+        
+        body::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+        }
+        
+        
+        @media only screen and (min-width: 1024px) {
+        /* For desktop: */
+            .pc {
+                display: block;
+            }
+            .mobile {
+                display: none;
+            }
+            
+            .topcontent {
+          height: 100vh;
+          max-width: 100%;
+          background: url("img/cover-pc.png");
+          background-size: cover;
+        }
+            
+         }
+        
+        @media only screen and (max-width: 1023px) {
+        /* For mobile: */
+            .pc {
+                display: none;
+            }
+            
+            .mobile {
+                display: block;
+            }
+            
+            .topcontent {
+              height: 100vh;
+              max-width: 100%;
+              background: url("img/cover-hp.png");
+              background-size: cover;
+            }
+            
+            h1 {
+                top: 15%;
+                left: 50%;
+                font-family:cuby;
+                  transform: translate(-50%, -50%);
+                  position: absolute;
+                color: #FF8E01;
+            }
+            
+            .button {
+              top: 45%;
+              left: 50%;
+              width: 250px;
+              border-radius: 10px;
+              font-size: 20px;
+              transform: translate(-50%, -50%);
+              position: absolute;
+              padding: 0 .6em;
+            }
+            
+         }
+        
+    </style>
+</head>
+<body>
+
+
+     <div class="mycontent pc">
+        <div class="topcontent">
+          <a class="waves-effect waves-light btn-large button" style="font-family: plalytime;" href="dashboard.html">Halo!</a>
+        </div>
+     </div>
+    
+    <div class="mycontent mobile">
+        <div class="topcontent">
+          <center>
+            <h1>Mari Lindungi <br> Tubuh Kita!</h1>
+            <a class="waves-effect waves-light btn-large button" style="font-family: plalytime;" href="dashboard.html">Halo!</a>
+            </center>      
+            
+        </div>
+     </div>
+        
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

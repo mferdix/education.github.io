@@ -1,0 +1,78 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @font-face {
+  font-family: cuby;
+  src: url(../CherryBomb-Regular.otf);
+ }
+
+ @font-face {
+  font-family: plalytime;
+  src: url(../playtime.ttf);
+ }
+
+
+ @font-face {
+  font-family: playtimeObli;
+  src: url(../PlaytimeOblique.ttf);
+ }
+
+ @font-face {
+  font-family: todies;
+  src: url(../PlaytimeWithHotToddies3D.ttf);
+ }
+
+
+ body {
+  background: url(../img/HEADER\ CHAPTER\ 2\ copy.png);
+  background-attachment: fixed;
+ }
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.awalan {
+  background: url("../img/Mask\ group.png");
+  padding-top: 400px;
+}
+
+.bagian-tubuh-kita {
+  background-color: #fff;
+}
+
+.bagian-tubuh-kita h1 {
+  font-family: cuby;
+  color: #CE3124;
+}
+
+.bagian-tubuh-kita img {
+  text-align: center;
+  width: 100%; 
+}
+
+.bagian-tubuh-kita p {
+
+
+font-family: 'Playtime With Hot Toddies';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 120%;
+
+align-items: center;
+text-align: center;
+
+color: #272727;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
